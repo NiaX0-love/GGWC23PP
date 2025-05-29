@@ -1,0 +1,107 @@
+body{background-color:#fff8ea;}
+#abtus{
+    font-family:'PlayfairDisplay', serif;
+    font-size: 40px;
+    text-align: center;
+    color: #403232;
+    font-style:normal;
+    font-weight: bold;
+    margin-bottom: 30px;
+    margin-top: 50px;
+}
+#story{
+    font-family:'Raleway', sans-serif;
+    font-size: 20px;
+    font-weight: lighter;
+    font-stretch: expanded;
+    padding: 10%;
+    color: #fff8ea;
+    background-color:#815B5B;
+    width: 90vw;
+    height: 50vw;
+}
+#story1{
+    width: 90%;
+    height: 100vw;
+    padding:5%
+}
+#imgcm{
+    width: 40%;
+    height: 100%;
+    float:left;
+}
+#story2{
+    float:right;
+    width: 50%;
+    color:#fff8ea;
+    font-size: 20px;
+}
+#story4{
+    font-family:'Raleway', sans-serif;
+    font-size: 20px;
+    font-weight: lighter;
+    font-stretch: expanded;
+    color: #fff8ea;
+    background-color:#815B5B;
+    width: 90vw;
+    height: 25vw;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: 'PlayfairDisplay';
+}
+.hero{
+    width: 100vw;
+}
+nav{
+    display: flex;justify-content: space-between;align-items: center;
+    padding-top: 40px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.logo{
+    color:#9E7676;
+    font-size: 40px;
+    font-style: italic;
+}
+span{
+    color:#815B5B;
+}
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 20px;
+}
+nav ul li .navbar{
+    color: #403232;
+    text-decoration: none;
+    font-weight: bold;
+    border: none;
+    font-style: italic;
+    font-size: 25px;
+}
+nav ul li .navbar:hover{
+    color: #815B5B;
+    transition: .3s;
+    border: none;
+    font-style: italic;
+    font-size: 25px;
+}
+a{
+    text-decoration: none;
+    color: #fff8ea;
+    border-radius: 8px;
+    font-size: 30px;
+    padding-left: 5px;
+    text-align: center;
+    width: 20px;
+    border: 20px;
+    font-style: normal;
+    font-weight: lighter;
+    padding: 8px;
+    font-family: 'PlayfairDisplay';
+}

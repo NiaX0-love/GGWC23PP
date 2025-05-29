@@ -1,0 +1,227 @@
+body{background-color:#fff8ea;}
+.review2{
+    border-top: 2px;
+    border-radius: 8px;
+    text-align: center;
+    width: 300px;
+    height:200px;
+    margin: 15px;
+    padding: 4px;
+    font-size: 20px;
+    color: #fff8ea;
+    background-color:#403232;
+    padding: 40px;
+    font-family:'Raleway',sans-serif;
+}
+#review1{
+    display: flex;justify-content: center;align-items: center;
+}
+#image1{
+    width: 140vw;
+    height: 60vw;
+}
+#promotext{
+    text-align: center;
+}
+#promo{
+    width: 100%;
+    height: 10px;
+}
+#one{
+    background-image: url("conor-brown-H1uISjlRXJE-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:100vw;
+    height:50vw;
+}
+#slogan{
+    color: #f7f5f2;
+    font-family:'PlayfairDisplay';
+    font-size: 50px;
+    font-weight: bold;
+    font-style: italic;
+    text-align:left;
+    width: 20%;
+    margin-left: 10px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+a{
+    text-decoration: none;
+    color: #fff8ea;
+    background-color: #594545;
+    border-radius: 8px;
+    font-size: 30px;
+    padding-left: 5px;
+    text-align: center;
+    width: 20px;
+    border: 20px;
+    font-style: italic;
+    font-weight: lighter;
+    padding: 8px;
+    font-family: 'PlayfairDisplay';
+}
+#promotext{
+    font-size: 15px;
+    color: #594545;
+    font-family:'PlayfairDisplay', serif;
+    margin-top: 0%;
+}
+#flavour1{
+    text-align: center;
+    font-size: 45px;
+    font-weight: normal;
+    font-style: normal;
+    margin: 2%;
+    color: #815B5B;
+    font-family: 'PlayfairDisplay';
+    
+}
+.flavour3{
+    width: 100px;
+    height: 150px;
+    background-color:#fff8ea;
+    margin: 40px;
+    padding: 40px;
+    text-align: center;
+    margin-bottom: 10px;
+    color:#594545;
+    font-family:'Raleway',sans-serif;
+    font-style:normal;
+    font-weight: bold;
+}
+#flavour2{
+    display: flex;justify-content: center;align-items: center;
+    height: 200px;
+    margin-bottom: 5%;
+}
+.review3{
+    display: contents;justify-content: baseline;
+    color:#f7f5f2;
+    font-family: 'PlayfairDisplay';
+}
+#two{
+    background-image: url("hello.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 35vw;
+    margin: 0%;
+    position:relative;
+}
+#newvariant{
+    color:#403232;
+    font-family:'PalyfairDisplay';
+    font-size: 30px;
+    font-weight: normal;
+    font-style:italic;
+    text-align:right;
+    width: 30%;
+    position:absolute;
+    right: 10%;
+    bottom :10%;
+    
+}
+#newvariant2{
+    color:#594545;
+    font-family:'Raleway';
+    font-size: 15px;
+    font-weight:lighter;
+    font-style:normal;
+    text-align:right;
+    width: 50%;
+    right:10%;
+}
+#shopshop{
+    background-image: url("cart.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 50vw;
+    padding-left: 20px;
+    padding-top: 50px;
+}
+#shop1{
+    text-decoration: none;
+    color:#403232;
+    background-color:#fff8ea;
+    border-radius: 8px;
+    font-size: 50px;
+    padding-left: 5px;
+    text-align: center;
+    width: 20px;
+    border: 20px;
+    font-style: italic;
+    font-weight: lighter;
+    margin: 10px;
+    font-family: 'PlayfairDisplay';
+}
+#shop2{
+    color: #f1f1f1;
+    font-family:'PlayfairDisplay';
+    font-size: 50px;
+    font-weight: bold;
+    font-style: italic;
+    text-align:left;
+    width: 40%;
+    margin-top: 30px;
+}
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: 'PlayfairDisplay';
+}
+.hero{
+    width: 100vw;
+}
+nav{
+    display: flex;justify-content: space-between;align-items: center;
+    padding-top: 40px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.logo{
+    color:#9E7676;
+    font-size: 40px;
+    font-style: italic;
+}
+span{
+    color:#815B5B;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 20px;
+}
+nav ul li .navbar{
+    color: #403232;
+    text-decoration: none;
+    font-weight: bold;
+    border: none;
+    font-style: italic;
+    font-size: 25px;
+}
+nav ul li .navbar:hover{
+    color: #815B5B;
+    transition: .3s;
+    border: none;
+    font-style: italic;
+    font-weight: 25px;
+}
+.no-bg{
+    background-color: transparent
+}
+#footer{
+    font-family: "Raleway";
+    font-size: 30px;
+    color: #9E7676;
+    font-style: italic;
+    margin: 5px;
+    font-weight: normal;
+    padding: 2%;
+}
+html{
+    scroll-behavior: smooth;
+}
+

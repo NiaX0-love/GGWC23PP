@@ -1,0 +1,98 @@
+body{background-color: #fff8ea;}
+.hero{
+    width: 100vw;
+}
+nav{
+    display: flex;justify-content: space-between;align-items: center;
+    padding-top: 40px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.logo{
+    color:#9E7676;
+    font-size: 40px;
+    font-style: italic;
+}
+span{
+    color:#815B5B;
+}
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 20px;
+}
+nav ul li .navbar{
+    color: #403232;
+    text-decoration: none;
+    font-weight: bold;
+    border: none;
+    font-style: italic;
+    font-size: 25px;
+}
+nav ul li .navbar:hover{
+    color: #815B5B;
+    transition: .3s;
+    border: none;
+    font-style: italic;
+    font-size: 25px;
+}
+.cookievariants2{
+    border-top: 2px;
+    border-radius: 8px;
+    text-align: center;
+    width: 90%;
+    height:300px;
+    margin: 15px;
+    padding: 4px;
+    font-size: 20px;
+    color: #fff8ea;
+    background-color:#403232;
+    padding: 40px;
+    font-family:'PlayfairDisplay',serif;
+}
+.imgy{
+    width: 300px;
+    height: 300px;
+    float: right;
+    display:block;align-items:center;
+}
+#shopnow1{
+    font-family:'PlayfairDisplay', serif;
+    font-size: 40px;
+    text-align: center;
+    color:#815B5B;
+    font-style:normal;
+    font-weight: bold;
+    margin-bottom: 30px;
+    margin-top: 50px;
+}
+.varianty{
+    float: inline-start;
+    width: 15px;
+    color: #fff8ea;
+    font-family:'Raleway';
+    font-size: 15px;
+    font-weight: lighter;
+    font-style:normal;
+    text-align:left;
+    width: 30%;
+    position:relative;
+    bottom :10%;
+    padding-top: 10%;
+    padding-left: 0%;
+}
+.xy{
+    float: left;
+    width: 20px;
+    color: #fff8ea;
+    font-family:'PalyfairDisplay';
+    font-size: 50px;
+    font-weight: normal;
+    font-style:italic;
+    text-align:left;
+    width: 30%;
+    position:relative;
+    left: 5%;
+    bottom :10%;
+}
+
